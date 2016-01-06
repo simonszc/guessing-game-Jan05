@@ -2,17 +2,21 @@ var userName = prompt('Hello, friend! What is your name?');
 alert('Greetings, ' + userName + '. My name is Zach. I\'ll ask you a few      questions about me to break the ice.');
 console.log('User\'s name is ' + userName + '.');
 
-var answerOne = confirm('First question,' + userName + '! I\'m from Bellevue. Click OK if you think it\'s true, Cancel if false..');
-if (answerOne === false) {
+var answerOne = prompt('First question,' + userName + '! Am I from Bellevue? Answer \'Yes\' or \'No\'');
+answerOne.toUpperCase;
+if (answerOne === 'no' || answerOne === 'n') {
   console.log(userName + ' got the first question right!');
   alert('That\'s right, ' + userName + '! I was born in Redmond');
 }
-else {
+else if (answerOne === 'yes' || answerOne === 'y') {
   alert('Nope, ' + userName + '. That\'s not where I\'m from.');
   console.log(userName + ' got the first question wrong');
+}
+else {
+  alert('You need to answer yes or no, ' + userName + '.')
 };
 
-var answerTwo = confirm('Next question,' + userName + '! Did I go to college in Walla Walla? Again, click OK if you think it\'s true, Cancel if false..');
+var answerTwo = confirm('Next question,' + userName + '! Did I go to college in Walla Walla? Click OK if you think it\'s true, Cancel if false..');
 if (answerTwo === true) {
   console.log(userName + ' got the second question right!');
   alert('That\'s right, ' + userName + '! I went to school over there at Whitman College. Lots of wheat fields. Lots of socially conservative billboards.');
