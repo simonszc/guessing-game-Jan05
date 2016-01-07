@@ -10,3 +10,8 @@ A "getting to know you" guessing game. It should take your name to provide a per
 1/6 Added while loop to final question so it goes until you get it right. Added final message with both answersRight and timesTried counters.
 
 Zach Simonson
+
+1/7: Declared functions, Called functions, and moved var timesTried into global scope. -Susan
+
+1/7: Added HTML id tags to interact elements and Change responses from alert to JS interactions. -Susan
+edited 1/7 by Susan Harrison
