@@ -12,3 +12,5 @@ A "getting to know you" guessing game. It should take your name to provide a per
 Zach Simonson
 
 1/7: Declared functions, Called functions, and moved var timesTried into global scope.
+
+1/7: Added HTML id tags to interact elements and Change responses from alert to JS interactions.
