@@ -15,3 +15,5 @@ Zach Simonson
 
 1/7: Added HTML id tags to interact elements and Change responses from alert to JS interactions. -Susan
 edited 1/7 by Susan Harrison
+
+Jan 8  : changed functions to a array,added Css  Evan Driving Zach nava man
