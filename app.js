@@ -82,7 +82,11 @@ function fourthQuestion(){
   };
 }
 fourthQuestion();
+
+function reportScore() {
 resFinal.textContent = 'Congratulations, ' + userName + '! You got ' + answersRight + ' questions correct! And it only took you ' + timesTried + ' attempts to guess my age.';
+}
+reportScore();
 
 
 
